@@ -49,8 +49,6 @@ source /home/nfs/arkhan/venv0/bin/activate
 # pip install comet_ml --upgrade --quiet
 # pip install transformers sklearn pandas
 
-# export COMET_API_KEY="L1eLPwQWjjnpJbhMkzhfKqYw8"
-# export COMET_PROJECT_NAME="projectone"
 # pip install -r /tudelft.net/staff-umbrella/tcr/requirements.txt
 # Computations should be started with 'srun'. For example: -m torch.distributed.launch --nproc_per_node 2 
 srun python xlntcr_ep2.py
